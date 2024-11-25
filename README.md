@@ -5,7 +5,7 @@
 
 The Guitar Sound Processing (GSP) is a multi-effect platform suited to stage performance, based on Electrosmith Daisy Seed. Its main highlights are:
 
-  -	Easy using and easy effect changing
+  -	Easy using and easy effect setup changing
   -	Configurable effect sequence
   -	Chain sequences and setup stored in non-volatile memory
   -	Minimum lag time (latency)
