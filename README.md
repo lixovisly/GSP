@@ -30,3 +30,10 @@ GSP_EM comprises all possible effects algorithms to be included in the chain. GS
 EM and ML modules run on Daisy Seed only. The following two (control commands and potentiometer) need part of software to run off DS. The last one runs off DS only. All modules will be described in proper documentation.
 
 $$y_{lfo} = \frac{1 + \sin \phi}{2}$$
+$$\begin{pmatrix}
+1 & 2 & 3\\
+a & b & c
+\alfa & \beta & \gamma
+\end{pmatrix}	
+$$
+
