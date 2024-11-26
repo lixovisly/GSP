@@ -33,7 +33,7 @@ $$y_{lfo} = \frac{1 + \sin \phi}{2}$$
 $$\begin{pmatrix}
 1 & 2 & 3\\
 a & b & c\\
-\alfa & \beta & \gamma
+\alpha & \beta & \gamma
 \end{pmatrix}	
 $$
 
