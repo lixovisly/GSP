@@ -34,9 +34,4 @@ $$\begin{pmatrix} 1 & 2 & 3\\
 a & b & c\\
 \alpha & \beta & \gamma \end{pmatrix}$$
 
-$$\usepackage{upgreek}
-\begin{document}
-\[ 
-x = \mathrm{a} = \upalpha
-\]
-$$
+$$x = \mathrm{a} = \upalpha $$
