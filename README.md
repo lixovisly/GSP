@@ -20,7 +20,7 @@ GSP comprises hardware and software. The GSP Driver is composed by an ElectroSmi
 
 Next figure shows the GSP internal block. The input signal from guitar is conditioned by an analog electronics that amplifies the signal and applies an analogue compressor before being sent to ADC converter of Daisy Seed. After being processed the signal is delivered back to the electronics for amplification and analog expander. DS communicates with external devices by two serial lines: one to send and to receive commands and other to receive expression pedal data. The external device can be a ESP32, for instance, which provides direct access to BT drivers or any microcomputer such as Arduino. They can interface with nRF24L01 module to receive wireless data from expression pedals. These pedals must have a microprocessor with nRF24L01 incorporated to process and send potentiometer data to GSP. The multi-effect GSP can also be commanded by USB either through DS (except for stored configurations) or an external device, yet to be developed. The effects setup and chain configuration can be stored in SSD in the external device. Here the name “chain” will be used to indicate the effect sequence order, sometimes also named as signal path, pedal board, or guitar rig. 
 
-<center><img src="ds_interfaces.jpg" alt="DS Interfaces" width="500"/></center>center>
+<center><img src="ds_interfaces.jpg" alt="DS Interfaces" width="500"></center>
 
 GSP has several software modules. These modules can be selected to achieve a desired solution or configuration. For instance, there are modules to provide interpreted commands for chain configuration, or to print and to read console commands. The modules are grouped in
 
