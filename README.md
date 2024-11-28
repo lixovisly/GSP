@@ -4,8 +4,6 @@
 ### 1. Overview
 
 
-GSP_EM comprises all possible effects algorithms to be included in the chain. GSP_ML has the main loop that provides ADC readings and DAC writings, as well as initialization of software modules and hardware. 
-EM and ML modules run on Daisy Seed only. The following two (control commands and potentiometer) need part of software to run off DS. The last one runs off DS only. All modules will be described in proper documentation.
 The Guitar Sound Processing (GSP) is a multi-effect platform suited to stage performance, based on Electrosmith Daisy Seed. Its main highlights are:
 
   -	Easy using and easy effect setup changing
@@ -36,4 +34,7 @@ GSP has several software modules. These modules can be selected to achieve a des
   -	GSP_CC - control commands
   -	GSP_PT - potentiometer modules
   -	GSP_CH - chain configuration
+
+GSP_EM comprises all possible effects algorithms to be included in the chain. GSP_ML has the main loop that provides ADC readings and DAC writings, as well as initialization of software modules and hardware. 
+EM and ML modules run on Daisy Seed only. The following two (control commands and potentiometer) need part of software to run off DS. The last one runs off DS only. All modules will be described in proper documentation.
 
